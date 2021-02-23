@@ -44,7 +44,7 @@ lm_each_subsample <- function(formula, data, n, B) {
 
 #' compute the regression estimates for a blb dataset
 lm1 <- function(X, y, n) {
-  freqs <- rmultinom(1, n, rep(1, nrow(X)))
+  freqs <- as.vector(rmultinom(1, n, rep(1, nrow(X))))
   fit <- lm.wfit(X, y, freqs)
   list(coef = blbcoef(fit), sigma = blbsigma(fit))
 }
