@@ -6,6 +6,9 @@
 \usage{
 blbcoef(fit)
 }
+\arguments{
+\item{fit}{Fit from \code{blblm}}
+}
 \description{
 compute the coefficients from fit
 }

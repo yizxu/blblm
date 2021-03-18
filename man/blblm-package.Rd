@@ -2,13 +2,9 @@
 % Please edit documentation in R/blblm.R
 \docType{package}
 \name{blblm-package}
-\alias{blblm}
 \alias{blblm-package}
-\title{blblm: What the Package Does (Title Case)}
+\alias{_PACKAGE}
+\title{Using Little Bag of Bootstraps for Linear Regression}
 \description{
-More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-}
-\details{
-Linear Regression with Little Bag of Bootstraps
+This package do a linear regression with little bag of bootstraps.
 }

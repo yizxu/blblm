@@ -6,6 +6,9 @@
 \usage{
 blbsigma(fit)
 }
+\arguments{
+\item{fit}{Fit from \code{blblm}}
+}
 \description{
 compute sigma from fit
 }
